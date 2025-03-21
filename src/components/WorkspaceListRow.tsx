@@ -9,7 +9,7 @@ type WorkspaceListRowProps = {
 export default function WorkspaceListRow(props: WorkspaceListRowProps) {
   return ( 
     <>
-      <Link to="/userHome/workspace" style={{ textDecoration: 'none' }} >
+      <Link to="/userHome/workspace" style={{ textDecoration: 'none' }} state={{name: props.workspace, type: props.type}} >
         <div className={WorkspaceListRowCSS['workspace-row']}>
           <span> Workspace {props.workspace} </span>
           <div>
