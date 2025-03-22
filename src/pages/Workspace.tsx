@@ -2,7 +2,7 @@ import ResearchPaperListRow from "../components/ResearchPaperListRow"
 import NewsArticleListRow from "../components/NewsArticleListRow"
 import NotebookListRow from "../components/NotebookListRow"
 import WorkspaceCSS from "./Workspace.module.css"
-import { useLocation, Link } from "react-router"
+import { useLocation } from "react-router"
 
 export default function Workspace() {
   const location = useLocation()

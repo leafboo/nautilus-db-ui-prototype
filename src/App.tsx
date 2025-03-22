@@ -3,7 +3,6 @@ import CreateUser from "./pages/CreateUser"
 import UserHome from "./pages/UserHome"
 import Workspace from "./pages/Workspace"
 import CreateWorkspace from "./pages/CreateWorkspace"
-import FindNewResearchPaper from "./pages/FindNewResearchPaper"
 import { Routes, Route } from "react-router"
 
 export default function App() {
