@@ -1,9 +1,0 @@
-.find-new-research-paper-container {
-  display: flex;
-  justify-content: center;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
